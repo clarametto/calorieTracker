@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<title>Calorie App</title>
+	<meta charset="utf-8">
+
+	
+	<link href="{% static 'css/base.css' %}" rel="stylesheet">
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+</head>
+<body>
+  <a href={% url "home" %}><h1 class="logo text-center">Calorie Tracker</h1></a>
+  
+<nav id="navbar-primary" class="navbar navbar-expand-lg navbar-default active" role="navigation">
+  
+    <!-- Brand and toggle get grouped for better mobile display -->
+ 
+ <div class="container">
+          <div class="navbar-header">
+            <!-- Brand and toggle get grouped for better mobile display -->
+          <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#resNav"  id='navbar-toggler'>
+            <span class="navbar-toggler-icon" id="ham"></span>
+          </button>
+        </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="resNav">
+            <ul class="navbar-nav justify-content-center">
+              
+              <li class="nav-item"><a class="nav-link " href={% url "home" %}>Home</a></li>
+              <li class="nav-item"><a class="nav-link " href={% url "profile" %}>Profile</a></li>
+              <li class="nav-item"><a class="nav-link " href={% url "add_food" %}>Add Food</a></li>
+              <li class="nav-item"><a class="nav-link " href={% url "select_food" %}>Select Food</a></li>
+              
+            </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+      
+ </div>
+</nav>
+
+<!-- header role="banner" -->
+        
+        <h1 id="username" class="text-center mt-4 headline">Hi dave<sub><a href="#"></a></sub></h1>
+
+
+<div class="container mt-2">
+  <div class="row">
+    <div class="col-lg-6 col-sm-12 item ">
+      <div class="card item-card card-block">
+        <h5 class="card-title mt-3 mb-3 text-center">Total Calories Consumed Today</h5>
+        <p class="card-text text-center">2000</p> 
+    </div>
+    </div>
+    <div class="col-lg-6 col-sm-12 item">
+      <div class="card item-card card-block mt-sm-2 mt-lg-0">
+        <h5 class="card-title  mt-3 mb-3 text-center">Calorie Goal For Today</h5>
+        <p class="card-text text-center">2500</p> 
+  </div>
+    </div>
+  </div>
+  
+</div>
+  
+      <div class="card text-white text-center mt-4"  style="border-radius: 20px;">
+
+        <div class="card-body">
+          
+          <p class="card-text text-center pt-3" style="font-size:22px"> 
+         
+      <a href="#"> Enter your calorie goal for the day </a>
+     
+      
+      </p>
+
+        </div>
+
+      </div>
+
+<h1 class="headline text-center mt-auto mb-auto">All Food Consumed Today </h1>
+<div class="container table-responsive py-5"> 
+<table class="table table-bordered table-hover">
+  <thead class="thead-dark">
+    <tr class="text-center">
+      <th scope="col">Food</th>
+      <th scope="col">Calorie</th>
+      <th scope="col">Count</th>
+    </tr>
+  </thead>
+  <tbody>
+ 
+  
+    
+    <tr class="text-center">
+      <td> Pizza</td>
+      <td>10000 </td>
+      <td> 1</td>
+    </tr>
+ 
+  </tbody>
+</table>
+</div>
+
+       
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>
