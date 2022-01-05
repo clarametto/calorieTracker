@@ -2,6 +2,7 @@ virtual/
 __pycache__
 *.pyc
 .env
+virtual/
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/django
