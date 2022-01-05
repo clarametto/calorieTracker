@@ -2,6 +2,7 @@ virtual/
 __pycache__
 *.pyc
 .env
+.env_calorie/
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/django
