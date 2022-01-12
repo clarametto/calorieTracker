@@ -1,4 +1,4 @@
-#!/home/access/Documents/Django/Django_Projects/calorieTracker/env_calorie/bin/python3
+#!/home/access/Documents/Django/Django_Projects/calorieTracker/env_calorie/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys

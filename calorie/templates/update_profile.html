@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+{% load cloudinary %}
+{% load bootstrap4 %}
+{% block content %}
+<style>
+    body{
+    font-family: 'Lato', global_font_string;
+    font-weight: 500;
+    background-color: #595D64;
+    color: whitesmoke;
+    }
+</style>
+<div class="container">
+    <div class=" mt-4">
+        <div class="form">
+          <h3 class="text-center" style="font-family: 'Joti One'">Update profile</h3>
+          <form action="" method="POST" enctype="multipart/form-data">
+            {% csrf_token %}
+            {% bootstrap_form form %}
+            <div class="form-group">
+              <input type="submit" class="btn btn-outline-dark bg-dark text-white" value="Update" />
+            </div>
+          </form>
+        </div>
+      </div>
+</div>
+{% endblock%}
