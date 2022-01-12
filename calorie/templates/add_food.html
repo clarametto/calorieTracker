@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container">
+<div class="row">
+    <div class="col-lg-6">
+    <div class="login">
+        <div class="login-screen">
+            <div class="app-title">
+                <h1 class="headline">Select Food</h1>
+            </div>
+
+            <form method="POST" action="" class="login-form form-inline">
+              {% csrf_token %}
+              
+                {% for field in form %}
+                <h5 class="form-labels">
+                {{ field.label }}
+                </h5>
+                {{ field }}
+                 
+                {% endfor %}
+           
+                <input class="btn mt-2" type="submit" value="select">
+
+            </form>
+           
+        </div>
+        
+    </div>
+    </div>
+    <div class="col-lg-6 ">
+    <div class="login">
+        <div class="login-screen">
+              <form method="get">
+                  <h1 class="headline">{{ myFilter.form }}</h1>
+                  <button class="btn mt-2" type="submit">Search </button>
+              </form> 
+        </div>
+    </div>
+
+        <h1 class="headline"> All Food Items </h1>
+        <table class="table table-bordered text-center mt-3">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Food Name</th>
+                    <th scope="col">Calories</th>
+                    <th scope="col">Carbs</th>
+                    <th scope="col">Proteins</th>
+                    <th scope="col">Fats</th>
+                    <th scope="col">Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for food in food_items %}
+                <tr>
+                    <td>{{ food.name }}</td>
+                    <td>{{ food.calorie }}</td>
+                    <td>{{ food.carbs }}</td>
+                    <td>{{ food.proteins }}</td>
+                    <td>{{ food.fats }}</td>
+                    <td>{{ food.quantity }}</td>
+                    
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>  
+    </div>
+</div>
+</div>
+{% endblock content %}
