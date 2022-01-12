@@ -37,6 +37,13 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'calorie.apps.CalorieConfig',
+    'bootstrap4',
+    'cloudinary',
+    'cloudinary_storage',
+    'crispy_forms',
+    'rest_framework',
+    'django_filters',
 ]
 
 MIDDLEWARE = [
@@ -118,6 +125,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
+
+LOGIN_REDIRECT_URL = '/'
+LOGIN_URL = 'login'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
