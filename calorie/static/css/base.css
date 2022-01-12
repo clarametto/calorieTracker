@@ -60,8 +60,8 @@ ul.navbar-nav .nav-item:after {
     width: 140px;
     background: white ;
     border-radius: 100px ;
-    color:  #white !important;
-    text-align: center;
+    color: #white !important;
+    text-align : center;
     font-weight: bolder;
     display: block;
     text-decoration: none;
