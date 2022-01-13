@@ -78,6 +78,7 @@ Open the application on your browser `127.0.0.1:8000`.
 
 
 ## Known Bugs
+* There are no known bugs
 
 Incase of any concerns,ideas or queries feel free to contact us through email:
 clara.metto@student.moringaschool.com,
