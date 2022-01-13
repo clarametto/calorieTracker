@@ -15,6 +15,9 @@ day. In addition, it shows your remaining recommended intake and the number of c
 ## User Story 
 * Sign in with the application to start using.
 * Set up a personal profile.
+* User can set a goal for calories consumed in a day.
+* User can track the amount of calories consumed in a day.
+* User can track the type of food consumed in a given day
 * 
 * 
 * 
