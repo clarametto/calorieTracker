@@ -79,3 +79,10 @@ Open the application on your browser `127.0.0.1:8000`.
 
 ## Known Bugs
 
+Incase of any concerns,ideas or queries feel free to contact us through email:
+clara.metto@student.moringaschool.com,
+ian.ochenge@student.moringaschool.com, 
+david.mathaga@student.moringaschool.com,
+brenda.kanale@student.moringaschool.com,
+meshack.kimutai@student.moringaschool.com
+
