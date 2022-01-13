@@ -1,4 +1,4 @@
-# calorieTracker
+# CalorieTracker
 
 #### Latest version updated on:January 14th 2022
 #### By :
