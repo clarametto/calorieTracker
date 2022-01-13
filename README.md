@@ -25,6 +25,7 @@ In addition, it shows your remaining recommended intake and the number of calori
 * User can select on food consumed to get a summary of food consumed in that day.
 
 ##  Live Link 
+https://calorieapp22.herokuapp.com/
 
 ## Technologies Used
 
