@@ -17,12 +17,11 @@ day. In addition, it shows your remaining recommended intake and the number of c
 * Set up a personal profile.
 * User can set a goal for calories consumed in a day.
 * User can track the amount of calories consumed in a day.
-* User can track the type of food consumed in a given day
-* 
-* 
-* 
-* 
-* 
+* User can track the type of food consumed in a given day.
+* User can add food consumed to check on calories.
+* User can search on the food entered earlier.
+* User can select on food consumed to get a summary of food consumed in that day.
+
 ##  Live Link 
 
 ## Technologies Used
