@@ -21,6 +21,14 @@ day. In addition, it shows your remaining recommended intake and the number of c
 * 
 * 
 
+## Technologies Used
+
+- HTML 
+- CSS 
+- Bootstrap
+- Python
+- Heroku
+
 ##  Live Link 
 
 ## Known Bugs
