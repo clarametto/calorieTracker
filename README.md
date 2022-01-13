@@ -27,8 +27,9 @@ day. In addition, it shows your remaining recommended intake and the number of c
 - HTML 
 - CSS 
 - Bootstrap
-- Python
-- Heroku
+- [Python3.8](https://www.python.org/)
+- [Django==3.2.7](https://docs.djangoproject.com/en/2.2/)
+- [Heroku](https://heroku.com)
 
 ## Setup and Installation 
 ##### Clone the repository: 
