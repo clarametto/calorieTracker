@@ -10,12 +10,12 @@
 	
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Akronim|Bellefair|Joti+One" rel="stylesheet">
-
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 
 </head>
-<body>
+<body class="" style="background-color: #1e2f23 ;">
   <a href={% url "home" %}><h1 class="logo text-center">Calorie Tracker </h1></a>
   
 <nav id="navbar-primary" class="navbar navbar-expand-lg navbar-default active" role="navigation">
@@ -119,6 +119,6 @@
   });
 
 </script>
-
+{% include "footer.html" %}
 </body>
 </html>
