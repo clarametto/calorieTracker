@@ -1,6 +1,6 @@
 
 <!-- Footer -->
-<footer class="page-footer font-small mdb-color bg-light pt-4">
+<footer class="page-footer font-small mdb-color  pt-4" style="background-color: #000000;color: #ffffff;">
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
@@ -10,7 +10,7 @@
   
         <!-- Grid column -->
         <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Calorie tracker</h6>
+          <h6 class="text-uppercase mb-4 font-weight-bold text-warning">Calorie tracker</h6>
           <p>This application tracks your weight and calculates a recommended daily calorie intake. It also has a well-designed food diary and an exercise log</p>
         </div>
         <!-- Grid column -->
@@ -39,18 +39,18 @@
   
         <!-- Grid column -->
         <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Useful links</h6>
-          <p>
-            <a href="#">Home</a>
+          <h6 class="text-uppercase mb-4 font-weight-bold text-warning">Useful links</h6>
+          <p >
+            <a href={% url "home" %}>Home</a>
           </p>
           <p>
-            <a href="">Profile</a>
+            <a href={% url "profile" %}>Profile</a>
           </p>
           <p>
-            <a href="#!">Add Food</a>
+            <a href={% url "add_food" %}>Add Food</a>
           </p>
           <p>
-            <a href="#!">Select Food</a>
+            <a href={% url "add_food" %}>Select Food</a>
           </p>
         </div>
   
@@ -59,11 +59,11 @@
   
         <!-- Grid column -->
         <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+          <h6 class="text-uppercase mb-4 font-weight-bold text-warning">Contacts</h6>
           <p>
-            <i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <i class="fas fa-home mr-3"></i> Nairobi,Kenya</p>
           <p>
-            <i class="fas fa-envelope mr-3"></i> info@gmail.com</p>
+            <i class="fas fa-envelope mr-3"></i> calorie-tracker@gmail.com</p>
           <p>
             <i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
           <p>
@@ -83,9 +83,9 @@
         <div class="col-md-7 col-lg-8">
   
           <!--Copyright-->
-          <p class="text-center text-md-left">© 2020 Copyright:
-            <a href="https://mdbootstrap.com/">
-              <strong> MDBootstrap.com</strong>
+          <p class="text-center text-md-left">© 2022 Copyright:
+            <a href="https://calorieapp22.com/">
+              <strong> www.calorieapp.com</strong>
             </a>
           </p>
   
