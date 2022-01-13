@@ -37,7 +37,7 @@ https://github.com/clarametto/calorieTracker.git
 ```
 ##### Navigate into the folder and install requirements 
  ```bash
-cd Community-Watch, pip install -r requirements.txt
+cd calorie-tracker, pip install -r requirements.txt
 ```
 ##### Install and activate Virtual 
  ```bash
