@@ -30,7 +30,7 @@ In addition, it shows your remaining recommended intake and the number of calori
 
 - HTML 
 - CSS 
-- Bootstrap(https://www.bootstrapcdn.com/)
+- [Bootstrap](https://www.bootstrapcdn.com/)
 - [Python3.8](https://www.python.org/)
 - [Django==3.2.7](https://docs.djangoproject.com/en/2.2/)
 - [Heroku](https://heroku.com)
