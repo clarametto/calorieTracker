@@ -15,7 +15,7 @@ post_save.connect(create_profile,sender=User)
 @receiver(post_save, sender=User)
 def create_user_profile(sender, instance, created, **kwargs):
      if created:
-         Profile.objects.create(user=instance)
+         Profile.objects.create(person_of=instance)
 
 @receiver(post_save, sender=User)
 def save_user_profile(sender, instance, **kwargs):
