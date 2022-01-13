@@ -69,13 +69,9 @@ ul.navbar-nav .nav-item:after {
 @import url('https://fonts.googleapis.com/css?family=Poppins');
 
 
-*{
-  background-color: ;
-}
-
 body {
 font-family: Arial;
-background-color: red;
+background-color: #3498DB;
 padding: 50px;
 }
 .login {
