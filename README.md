@@ -20,6 +20,7 @@ day. In addition, it shows your remaining recommended intake and the number of c
 * 
 * 
 * 
+##  Live Link 
 
 ## Technologies Used
 
@@ -29,7 +30,51 @@ day. In addition, it shows your remaining recommended intake and the number of c
 - Python
 - Heroku
 
-##  Live Link 
+## Setup and Installation 
+##### Clone the repository: 
+ ```bash
+https://github.com/clarametto/calorieTracker.git
+```
+##### Navigate into the folder and install requirements 
+ ```bash
+cd Community-Watch, pip install -r requirements.txt
+```
+##### Install and activate Virtual 
+ ```bash
+- python3 -m venv virtual - source virtual/bin/activate
+```
+##### Install Dependencies 
+ ```bash
+ pip install -r requirements.txt
+```
+##### Setup Database 
+  SetUp your database User,Password, Host then make migrate
+ ```bash
+python manage.py makemigrations watch
+ ```
+ Now Migrate
+ ```bash
+ python manage.py migrate
+```
+##### Run the application 
+ ```bash
+ python manage.py runserver
+```
+##### Running the application 
+ ```bash
+ python manage.py server
+```
+##### Testing the application 
+ ```bash
+ python manage.py test
+```
+Open the application on your browser `127.0.0.1:8000`.
+
+####  Admin- 
+
+#### Password-
+
+
 
 ## Known Bugs
 
